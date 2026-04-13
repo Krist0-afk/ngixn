@@ -1,4 +1,4 @@
 From nginx:alpine
 WORKDIR /usr/share/ngixn/html
-COPY html
+COPY index.html .
 EXPOSE 80
